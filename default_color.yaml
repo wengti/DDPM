@@ -1,0 +1,18 @@
+im_channels : 3
+
+down_channels : [32, 64, 128, 256]
+mid_channels : [256, 256, 128]
+down_samples : [True, True, False]
+
+time_embedding_dim : 128
+num_heads : 4
+num_down_layers : 2
+num_mid_layers : 2
+num_up_layers : 2
+
+num_timesteps: 1000
+beta_start : 0.0001
+beta_end : 0.02
+
+num_samples : 100
+num_grid_rows : 10
